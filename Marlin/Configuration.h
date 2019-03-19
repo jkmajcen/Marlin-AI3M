@@ -41,7 +41,7 @@
 
 // Mega constants. SET THESE BEFORE BUILDING.
 // New Mega Configs
-#define EXTRUDER_ESTEPS 411 // Titan extruder
+#define EXTRUDER_ESTEPS 411 // Titan or Bondtech extruder
 //#define Z_MIN_POS 0
 
 // Old Mega Configs
@@ -896,7 +896,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR true  // set to false for stock drivers or TMC2208 with reversed connectors
+#define INVERT_E0_DIR false // set to false for stock drivers or TMC2208 with reversed connectors
 #define INVERT_E1_DIR false // set to false for stock drivers or TMC2208 with reversed connectors
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
